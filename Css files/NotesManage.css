@@ -178,6 +178,9 @@ color: var(--font-secondary);
 .note-peragraph {
     font-size: 16px;
     font-weight: 400;
+    height: 100%;
+    width: 100%;
+    overflow: scroll;
     color: var(--font-primary);
 }
 
