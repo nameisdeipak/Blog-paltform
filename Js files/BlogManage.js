@@ -159,7 +159,7 @@ function showPanneldata(pannelName, whichData) {
 
       const blogcreateDate = document.createElement("span");
       blogcreateDate.classList.add("blog-creation-date");
-      blogcreateDate.textContent = `Data : ${blog.date}`;
+      blogcreateDate.textContent = `Date : ${blog.date}`;
 
       blogCreator.appendChild(blogAuthor);
       blogCreator.appendChild(blogcreateDate);
