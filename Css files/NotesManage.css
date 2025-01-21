@@ -180,7 +180,7 @@ color: var(--font-secondary);
     font-weight: 400;
     height: 100%;
     width: 100%;
-    overflow: scroll;
+    overflow: overlay;
     color: var(--font-primary);
 }
 
@@ -328,6 +328,11 @@ color: var(--font-secondary);
       padding-top: 5% ;
       padding-bottom: 5% ;
      }
+   .saveButtons button {
+    padding: 1% 12%;
+    border-radius: 7px;
+    margin-left: 2%;
+    }
   }
   
   @media (max-width: 567px) {
